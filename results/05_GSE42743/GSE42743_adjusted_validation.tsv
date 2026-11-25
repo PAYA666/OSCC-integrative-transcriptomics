@@ -1,0 +1,2 @@
+analysis	n	events	HR_per_SD	lower95_HR	upper95_HR	p	PH_p	clinical_C_apparent	clinical_plus_score_C_apparent	LR_added_score	p_LR_added_score
+Score adjusted for age, sex, and AJCC stage	71	40	1.1206896147645	0.778158584561547	1.61399647521548	0.540378433108015	0.854132446942915	0.648917995444191	0.659453302961276	0.377284498784093	0.539060121508758

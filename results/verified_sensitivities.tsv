@@ -1,0 +1,4 @@
+subset	tumors	normals	common_genes	rho	strict_subset	strict_reference	common_strict	same_direction
+paired_32	32	32	16362	0.89736755070954	3916	4461	3168	3157
+remove_base_and_mixed	246	17	17178	0.961123580059879	4239	4461	3834	3830
+named_oral	92	3	16513	0.854249289648848	2269	4461	1760	1755

@@ -1,0 +1,25 @@
+gene	platform_pair	n_reference_materials	Pearson_r	Spearman_rho	RNAseq_RefSeq_accessions	microarray_probes	qPCR_assays
+CTSG	RNAseq_vs_microarray	2			1	1	1
+CTSG	RNAseq_vs_qPCR	4	0.9991585664204298	1.0	1	1	1
+CTSG	microarray_vs_qPCR	2			1	1	1
+P4HA1	RNAseq_vs_microarray	4	0.9991578653532702	1.0	1	2	1
+P4HA1	RNAseq_vs_qPCR	4	0.9910799986399204	1.0	1	2	1
+P4HA1	microarray_vs_qPCR	4	0.9855232558048416	1.0	1	2	1
+NKAIN1	RNAseq_vs_microarray	4	0.5365446144514516	0.4	2	1	2
+NKAIN1	RNAseq_vs_qPCR	4	0.9876402548627843	1.0	2	1	2
+NKAIN1	microarray_vs_qPCR	4	0.6540588244917096	0.4	2	1	2
+LRRC38	RNAseq_vs_microarray	4	0.9555336127489833	1.0	2	1	2
+LRRC38	RNAseq_vs_qPCR	4	0.9947832214922987	1.0	2	1	2
+LRRC38	microarray_vs_qPCR	4	0.9725039355609353	1.0	2	1	2
+SPSB4	RNAseq_vs_microarray	0			1	1	1
+SPSB4	RNAseq_vs_qPCR	4	0.9622804652467218	1.0	1	1	1
+SPSB4	microarray_vs_qPCR	0			1	1	1
+SPINK6	RNAseq_vs_microarray	2			1	2	1
+SPINK6	RNAseq_vs_qPCR	4	0.9672278810405085	1.0	1	2	1
+SPINK6	microarray_vs_qPCR	2			1	2	1
+TNFRSF4	RNAseq_vs_microarray	4	-0.05100561285083681	-0.2	1	2	1
+TNFRSF4	RNAseq_vs_qPCR	4	0.988406527740886	1.0	1	2	1
+TNFRSF4	microarray_vs_qPCR	4	-0.17654721290032638	-0.2	1	2	1
+DEFB1	RNAseq_vs_microarray	4	0.621423441559974	0.8	1	1	1
+DEFB1	RNAseq_vs_qPCR	4	0.8514708686428695	0.6	1	1	1
+DEFB1	microarray_vs_qPCR	4	0.6381965013513844	0.8	1	1	1

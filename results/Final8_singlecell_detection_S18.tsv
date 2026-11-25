@@ -1,0 +1,9 @@
+gene	cell_type_1	detected_total_percent_1	cell_type_2	detected_total_percent_2	cell_type_min_n
+CTSG	Mast	68/81 (84.0%)	Dendritic	2/43 (4.7%)	30
+P4HA1	Malignant	673/1177 (57.2%)	Macrophage	30/62 (48.4%)	30
+NKAIN1	Malignant	7/1177 (0.6%)	Fibroblast	1/524 (0.2%)	30
+LRRC38	Malignant	25/1177 (2.1%)	Endothelial	1/149 (0.7%)	30
+SPSB4	Dendritic	3/43 (7.0%)	Malignant	22/1177 (1.9%)	30
+SPINK6	Malignant	295/1177 (25.1%)	Mast	1/81 (1.2%)	30
+TNFRSF4	T cell	212/1031 (20.6%)	Mast	15/81 (18.5%)	30
+DEFB1	Malignant	113/1177 (9.6%)	Macrophage	2/62 (3.2%)	30

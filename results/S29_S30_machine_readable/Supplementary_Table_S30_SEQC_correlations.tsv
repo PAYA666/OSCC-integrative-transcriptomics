@@ -1,0 +1,25 @@
+﻿Gene	Platform pair	n materials	Pearson r	Spearman rho
+CTSG	RNA-seq vs microarray	2	not estimated	not estimated
+CTSG	RNA-seq vs qPCR	4	0.999	1.000
+CTSG	Microarray vs qPCR	2	not estimated	not estimated
+P4HA1	RNA-seq vs microarray	4	0.999	1.000
+P4HA1	RNA-seq vs qPCR	4	0.991	1.000
+P4HA1	Microarray vs qPCR	4	0.986	1.000
+NKAIN1	RNA-seq vs microarray	4	0.537	0.400
+NKAIN1	RNA-seq vs qPCR	4	0.988	1.000
+NKAIN1	Microarray vs qPCR	4	0.654	0.400
+LRRC38	RNA-seq vs microarray	4	0.956	1.000
+LRRC38	RNA-seq vs qPCR	4	0.995	1.000
+LRRC38	Microarray vs qPCR	4	0.973	1.000
+SPSB4	RNA-seq vs microarray	0	not estimable	not estimable
+SPSB4	RNA-seq vs qPCR	4	0.962	1.000
+SPSB4	Microarray vs qPCR	0	not estimable	not estimable
+SPINK6	RNA-seq vs microarray	2	not estimated	not estimated
+SPINK6	RNA-seq vs qPCR	4	0.967	1.000
+SPINK6	Microarray vs qPCR	2	not estimated	not estimated
+TNFRSF4	RNA-seq vs microarray	4	-0.051	-0.200
+TNFRSF4	RNA-seq vs qPCR	4	0.988	1.000
+TNFRSF4	Microarray vs qPCR	4	-0.177	-0.200
+DEFB1	RNA-seq vs microarray	4	0.621	0.800
+DEFB1	RNA-seq vs qPCR	4	0.851	0.600
+DEFB1	Microarray vs qPCR	4	0.638	0.800

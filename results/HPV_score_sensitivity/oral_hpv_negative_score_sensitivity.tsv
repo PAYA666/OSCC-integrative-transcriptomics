@@ -1,0 +1,7 @@
+cohort	signature	N	ever	never	difference_Ever_minus_Never	lower95	upper95	p	adjustment	FDR_3_scores
+Oral, no positive HPV assay; at least one negative assay	Exposure2	40	30	10	-0.0327758660160804	-0.725449714945821	0.659897982913661	0.923740334991927	Age + sex + stage + site	0.923740334991927
+Oral, no positive HPV assay; at least one negative assay	Proliferation2	40	30	10	-0.57451540190692	-1.56155375861763	0.412522954803789	0.244198172142693	Age + sex + stage + site	0.732594516428078
+Oral, no positive HPV assay; at least one negative assay	Stromal5	40	30	10	-0.060183951542764	-1.01037069179249	0.89000278870696	0.898049027980592	Age + sex + stage + site	0.923740334991927
+Oral, p16 and ISH both negative	Exposure2	31	24	7	0.224836491570734	-0.615604229278768	1.06527721242024	0.584623891580239	Age + sex + stage + site	0.735337427893053
+Oral, p16 and ISH both negative	Proliferation2	31	24	7	-0.892263186386276	-2.20317877927709	0.418652406504537	0.172065925347806	Age + sex + stage + site	0.516197776043419
+Oral, p16 and ISH both negative	Stromal5	31	24	7	0.223225643478694	-1.12902520902158	1.57547649597897	0.735337427893053	Age + sex + stage + site	0.735337427893053

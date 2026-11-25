@@ -1,0 +1,4 @@
+﻿"Comparison"	"N"	"Ever"	"Never"	"Additional_adjustment"	"FDR05_base"	"FDR05_adjusted"	"FDR05_shared"	"Shared_same_direction"	"Spearman_log2FC"
+"Clinical/site adjustment"	"301"	"216"	"85"	"Age, sex, stage, anatomical site"	"1157"	"477"	"345"	"345"	"0.8267024"
+"Alcohol adjustment"	"127"	"100"	"27"	"Alcohol added to clinical/site model"	"248"	"221"	"142"	"142"	"0.9193146"
+"MCP-counter marker-expression scores"	"301"	"216"	"85"	"Ten standardized marker-based expression scores"	"477"	"470"	"273"	"273"	"0.8726165"

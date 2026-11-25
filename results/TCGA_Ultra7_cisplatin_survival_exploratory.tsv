@@ -1,0 +1,4 @@
+group	n	deaths	HR_per_SD	lower95	upper95	p	note
+All cohort cases with explicit cisplatin record	46	24	1.22970572899655	0.813529015530589	1.85878579750555	0.326625458402856	Unadjusted exploratory association; not a treatment interaction
+Named oral-cavity cases with explicit cisplatin record	17	12	1.77226250858062	0.932599880811269	3.36791207456319	0.0806464771256033	Unadjusted exploratory association; not a treatment interaction
+p16-negative named oral-cavity cases with explicit cisplatin record	6	6					Insufficient data

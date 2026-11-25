@@ -1,0 +1,3 @@
+Cohort	N	Ever	Never	HPV_negative	HPV_positive	HPV_positive_ever	HPV_positive_never	Covariates_without_HPV	Covariates_with_HPV	Genes_tested	FDR05_without_HPV	FDR05_with_HPV	FDR05_in_both	Spearman_log2FC	Same_direction_genes	Same_direction_percent
+Oral-related HPV-assessed subset	57	43	14	50	7	5	2	Age, sex, stage, grouped site	Age, sex, stage, grouped site, HPV status	17389	37	34	28	0.980463913289481	16898	97.2
+Restricted oral subset	42	31	11	40	2	1	1	Age, sex, stage, grouped site	Age, sex, stage, grouped site, HPV status	17389	9	8	4	0.984880148453875	16742	96.3

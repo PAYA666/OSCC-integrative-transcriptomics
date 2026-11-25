@@ -1,0 +1,10 @@
+p16	ISH	old_status	hpv_status	both_disagree	N
+"Negative"	"[Not Evaluated]"	"Negative"	"Negative"	FALSE	1
+NA	NA	NA	NA	FALSE	273
+"Negative"	"Negative"	"Negative"	"Negative"	FALSE	39
+"Positive"	NA	"Positive"	"Positive"	FALSE	6
+"Positive"	"Positive"	"Positive"	"Positive"	FALSE	4
+"Positive"	"Negative"	"Positive"	"Positive"	TRUE	1
+NA	"Negative"	NA	"Negative"	FALSE	4
+"Negative"	NA	NA	"Negative"	FALSE	12
+NA	"Positive"	"Positive"	"Positive"	FALSE	1

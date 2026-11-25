@@ -1,0 +1,4 @@
+model	C_apparent	C_optimism_corrected	bootstrap_valid	bootstrap_requested
+clinical	0.62621359223301	0.584832931862831	500	500
+combined	0.667128987517337	0.621533852075521	500	500
+combined_minus_clinical	0.0409153952843274	0.0367009202126903	500	500

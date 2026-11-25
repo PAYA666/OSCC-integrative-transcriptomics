@@ -1,0 +1,7 @@
+﻿assay_pair	reference_material	n_common_full_profile_references	genes_with_ge3_pairwise_references	score_a	score_b	pearson_profile_r	spearman_profile_rho	interpretation
+RNAseq_vs_qPCR	A	4	8	0.7593161638524367	0.7337652647622088	0.9966227674669939	1.0	All eight genes; assay-wise z standardization across reference mixtures
+RNAseq_vs_qPCR	B	4	8	-0.48457847239318946	-0.5412524410903846	0.9966227674669939	1.0	All eight genes; assay-wise z standardization across reference mixtures
+RNAseq_vs_qPCR	C	4	8	0.19839244064834924	0.24465622042993473	0.9966227674669939	1.0	All eight genes; assay-wise z standardization across reference mixtures
+RNAseq_vs_qPCR	D	4	8	-0.473130132107587	-0.43716904410175733	0.9966227674669939	1.0	All eight genes; assay-wise z standardization across reference mixtures
+RNAseq_vs_microarray		0	5					Not estimable as a full Final8 composite; only 5/8 genes have >=3 matched materials
+qPCR_vs_microarray		0	5					Not estimable as a full Final8 composite; only 5/8 genes have >=3 matched materials

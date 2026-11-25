@@ -1,0 +1,3 @@
+model	n	events	treatment_counts	HR_per_score_SD	lower95	upper95	p	score_PH_p	global_PH_p	treatment_source
+Age/sex/stage adjusted; same treatment-complete cohort	96	50	uni-modality 43; multi-modality 53	1.62855122133927	1.20398373039753	2.20283631212353	0.0015534353795737	0.459025778372291	0.0941172309973067	GSE41613 author-supplied phenotype; uni-modality vs multi-modality
+Age/sex/stage/treatment adjusted	96	50	uni-modality 43; multi-modality 53	1.66385752472908	1.22424917274121	2.26132222446091	0.00114406623355035	0.538987190042674	0.160486628874171	GSE41613 author-supplied phenotype; uni-modality vs multi-modality
