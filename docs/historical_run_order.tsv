@@ -1,0 +1,77 @@
+part	order	group	path	provenance_id
+Part1	1	Main stage	historical/Part1/01_stage1a_raw_input_qc.R	Part1_B001
+Part1	2	Main stage	historical/Part1/02_stage1b1_patient_selection.R	Part1_B002
+Part1	3	Main stage	historical/Part1/03_stage1b2_clinical_qc.R	Part1_B003
+Part1	4	Main stage	historical/Part1/04_stage1b3_oscc_cohort_freeze.R	Part1_B004
+Part1	5	Main stage	historical/Part1/05_stage2a_clinical_data.R	Part1_B005
+Part1	6	Main stage	historical/Part1/06_stage3_differential_expression.R	Part1_B009
+Part1	7	Main stage	historical/Part1/07_stage4_functional_enrichment.R	Part1_B010
+Part1	8	Main stage	historical/Part1/08_stage5a_wgcna_qc.R	Part1_B011
+Part1	9	Main stage	historical/Part1/09_stage5b_wgcna_network.R	Part1_B012
+Part1	10	Main stage	historical/Part1/10_stage5c_wgcna_modules.R	Part1_B013
+Part1	11	Main stage	historical/Part1/11_stage5d_wgcna_fix.R	Part1_B015
+Part1	12	Main stage	historical/Part1/12_stage5e_wgcna_fixed.R	Part1_B019
+Part1	13	Main stage	historical/Part1/13_stage6a_candidate_cox_lasso.R	Part1_B021
+Part1	14	Main stage	historical/Part1/14_stage6c_repeated_lasso.R	Part1_B023
+Part1	15	Main stage	historical/Part1/15_stage6d_model_selection.R	Part1_B024
+Part1	16	Main stage	historical/Part1/16_stage6f_nested_cv.R	Part1_B028
+Part1	17	Main stage	historical/Part1/17_stage6g_final8_model.R	Part1_B030
+Part1	18	Main stage	historical/Part1/18_stage6h_clinical_increment.R	Part1_B031
+Part1	19	Main stage	historical/Part1/19_stage6i_nomogram_calibration.R	Part1_B032
+Part1	20	Main stage	historical/Part1/20_stage7a_gse41613_local_import_fix.R	Part1_B036
+Part1	21	Main stage	historical/Part1/21_stage7b_gse41613_preprocessing.R	Part1_B037
+Part1	22	Main stage	historical/Part1/22_stage7c_external_validation.R	Part1_B038
+Part1	23	Main stage	historical/Part1/23_stage8a_final_model_summary.R	Part1_B039
+Part1	24	Figures	historical/Part1/24_stage8b_publication_figures.R	Part1_B042
+Part1	25	Figures	historical/Part1/25_stage8b_offline_figure_continuation.R	Part1_B043
+Part2	1	Main stage	historical/Part2/01_step1a_nature8_patient_ids.R	Part2_B002
+Part2	2	Main stage	historical/Part2/02_step2_exposure_metadata.R	Part2_B003
+Part2	3	Main stage	historical/Part2/03_step3a_metadata.R	Part2_B004
+Part2	4	Main stage	historical/Part2/04_step3b_exposure_qc.R	Part2_B005
+Part2	5	Main stage	historical/Part2/05_step4a_expression_matching.R	Part2_B006
+Part2	6	Main stage	historical/Part2/06_step4_deseq2.R	Part2_B008
+Part2	7	Main stage	historical/Part2/07_step5_smoking_deg.R	Part2_B009
+Part2	8	Main stage	historical/Part2/08_step5b_deg_qc.R	Part2_B010
+Part2	9	Main stage	historical/Part2/09_step6_deg_annotation.R	Part2_B011
+Part2	10	Main stage	historical/Part2/10_step7_ranked_genes.R	Part2_B012
+Part2	11	Main stage	historical/Part2/11_step8_hallmark_gsea_local_gmt.R	Part2_B017
+Part2	12	Main stage	historical/Part2/12_step9a_wgcna_reuse_audit.R	Part2_B020
+Part2	13	Main stage	historical/Part2/13_step9b_module_smoking_association.R	Part2_B021
+Part2	14	Main stage	historical/Part2/14_step9c_module_deg_enrichment.R	Part2_B022
+Part2	15	Main stage	historical/Part2/15_step9d_network_gene_analysis.R	Part2_B023
+Part2	16	Main stage	historical/Part2/16_step10a_string_network.R	Part2_B024
+Part2	17	Main stage	historical/Part2/17_step10b_ppi_topology_integration.R	Part2_B026
+Part2	18	Main stage	historical/Part2/18_step11a_functional_enrichment.R	Part2_B027
+Part2	19	Main stage	historical/Part2/19_step12a_key_gene_summary_final.R	Part2_B034
+Part2	20	Main stage	historical/Part2/20_step13a_mcp_counter_offline_final.R	Part2_B037
+Part2	21	Main stage	historical/Part2/21_step14_exposure_dose_sensitivity.R	Part2_B038
+Part2	22	Main stage	historical/Part2/22_step14b_status_pattern.R	Part2_B039
+Part2	23	Main stage	historical/Part2/32_step15_final_archive_check.R	Part2_B062
+Part2	24	Figures	historical/Part2/23_figure1_final.R	Part2_B040
+Part2	25	Figures	historical/Part2/24_figure2a_final.R	Part2_B042
+Part2	26	Figures	historical/Part2/25_figure3a_final.R	Part2_B044
+Part2	27	Figures	historical/Part2/26_figure3b_final_fixed.R	Part2_B052
+Part2	28	Figures	historical/Part2/27_figure4a_final.R	Part2_B054
+Part2	29	Figures	historical/Part2/28_figure4b_final.R	Part2_B055
+Part2	30	Figures	historical/Part2/29_figure4c_final.R	Part2_B056
+Part2	31	Figures	historical/Part2/30_figure5a_final.R	Part2_B059
+Part2	32	Figures	historical/Part2/31_figure6_working_model_final.R	Part2_B061
+Part3	1	Main stage	historical/Part3/01_step1_final_v4_offline.R	Part3_B013
+Part3	2	Main stage	historical/Part3/02_step2_hallmark_v2.R	Part3_B016
+Part3	3	Main stage	historical/Part3/03_step3_gene_convergence_reconstructed_candidate.R	Part3_B017 setup/meta + Part3_B018 lines 1-261 corrected leading-edge extraction + Part3_B020 final corrected pathway evidence/pool/output
+Part3	4	Main stage	historical/Part3/04_step4_tcga_wgcna_projection.R	Part3_B022
+Part3	5	Main stage	historical/Part3/05_step5_wgcna_robustness.R	Part3_B023
+Part3	6	Main stage	historical/Part3/06_step6_candidate_consolidation.R	Part3_B031
+Part3	7	Main stage	historical/Part3/07_step7b_gdsc1_final_v3.R	Part3_B043
+Part3	8	Main stage	historical/Part3/08_step8_evidence_integration_v2.R	Part3_B046
+Part3	9	Supplementary/corrected	historical/Part3/supp_step7_emtab15148_corrected.R	Part3_B030
+Part3	10	Figures	historical/Part3/figure3d.R	Part3_B083
+Part3	11	Figures	historical/Part3/figure3c.R	Part3_B082
+Part3	12	Figures	historical/Part3/figure5a.R	Part3_B093
+Part3	13	Figures	historical/Part3/figure2a_final_candidate.R	Part3_B064
+Part3	14	Figures	historical/Part3/figure5b_v2.R	Part3_B095
+Part3	15	Figures	historical/Part3/figure2b_final.R	Part3_B066
+Part3	16	Figures	historical/Part3/figure1_final_v2.R	Part3_B051
+Part3	17	Figures	historical/Part3/figure2d_v3.R	Part3_B078
+Part3	18	Figures	historical/Part3/figure3b.R	Part3_B081
+Part3	19	Figures	historical/Part3/figure3a.R	Part3_B080
