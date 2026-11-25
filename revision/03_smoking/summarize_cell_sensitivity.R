@@ -1,0 +1,2 @@
+library(data.table)
+a<-fread("matched_hallmarks_adjusted.tsv");b<-fread("clinical_plus_MCPcounter_hallmarks.tsv");x<-merge(a,b,by="pathway",suffixes=c("_clinical","_cell"));keys<-c("HALLMARK_E2F_TARGETS","HALLMARK_G2M_CHECKPOINT","HALLMARK_MYC_TARGETS_V1","HALLMARK_MYC_TARGETS_V2","HALLMARK_MTORC1_SIGNALING","HALLMARK_XENOBIOTIC_METABOLISM","HALLMARK_OXIDATIVE_PHOSPHORYLATION");print(x[pathway%in%keys][order(match(pathway,keys)),.(pathway,NES_clinical,padj_clinical,NES_cell,padj_cell)])
