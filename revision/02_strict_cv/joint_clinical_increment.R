@@ -98,7 +98,7 @@ calibrate <- function(model,horizon,col){
   },by=risk_group]
 }
 
-calibration <- rbindlist(lapply(c("clinical","joint"),function(m) rbindlist(lapply(seq_along(times),function(j) calibrate(m,j,paste0(m,"_risk_",c("1y","3y","5y")[j]))))))
+calibration <- rbindlist(lapply(c("clinical","joint"),function(m) rbindlist(lapply(seq_along(times),function(j) calibrate(m,c(1,3,5)[j],paste0(m,"_risk_",c("1y","3y","5y")[j]))))))
 outdir <- "results"
 dir.create(outdir,showWarnings=FALSE,recursive=TRUE)
 fwrite(stats,file.path(outdir,sprintf("joint_clinical_fold_metrics_%03d_folds.tsv",nfolds)),sep="\t")
